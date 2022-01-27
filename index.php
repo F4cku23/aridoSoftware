@@ -7,14 +7,14 @@
         <title>Gestion</title>
     </head>
     <body>
-        <?php
-            if(isset($_GET['id'])=='errorIntentos'){
-                echo "<h1 style='text-align: center; color: red;'>DATOS INCORRECTOS O CAMPOS VACIOS</h1>";
+    <?php
+            if(isset($_GET['id'])=='incorrecto'){
+                echo "<h1 style='text-align: center; background: black; color: red;'>DATOS INCORRECTOS O CAMPOS VACIOS</h1>";
             }
         ?>
         <!-- nombre o alias (unico), password, fecha y hora de creacion, 
         y estado (activo/inactivo) -->
-        <form class="formulario" action="validar.php" method="POST">
+        <form class="formulario" action="api/validar.php" method="POST">
             <h2>Login</h2>
             <ul class="contenedor">
                 <div class="input-contenedor">
@@ -37,3 +37,10 @@
 
     </body>
 </html>
+<!-- Sistema realizado con:
+            -HTML5
+            -CSS3
+            -javasript
+            -PHP
+            -SQL
+            -Bootstrap5 -->

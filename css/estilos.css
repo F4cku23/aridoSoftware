@@ -8,8 +8,16 @@ body{
 *{
     box-sizing: border-box;
 }
+.top{
+    margin-top: 15%;
+}
 h2{
     text-align: center;
+}
+.back{
+    background: black;
+    opacity: 0.8;
+    color: aquamarine;
 }
 .formulario{
     width: 65%;
@@ -50,6 +58,19 @@ input[type="text"], input[type="password"]{
     background-color: #970808;
     /* color: black; */
 }
-H3{
+h3{
     color:red;
+}
+
+#acciones{
+    color: aliceblue;
+    list-style-type: none;
+}
+ul li{
+    float: left;
+    margin-right: 1%;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
